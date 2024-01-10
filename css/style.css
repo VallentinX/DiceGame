@@ -15,8 +15,8 @@ body {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
-  color: #333;
-  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  color: #000;
+  background-image: linear-gradient(to top left, #0ff 0%, #f00 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,10 +27,10 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: #ffffff15;
   backdrop-filter: blur(200px);
   filter: blur();
-  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  box-shadow: 0 3rem 5rem #00000040;
   border-radius: 9px;
   overflow: hidden;
   display: flex;
@@ -59,12 +59,12 @@ main {
 .score {
   font-size: 8rem;
   font-weight: 300;
-  color: #c7365f;
+  color: #ff00aa;
   margin-bottom: auto;
 }
 
 .player--active {
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: #ffffff60;
 }
 .player--active .name {
   font-weight: 700;
@@ -78,7 +78,7 @@ main {
 }
 
 .current {
-  background-color: #c7365f;
+  background-color: #ff00aa;
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
@@ -92,7 +92,7 @@ main {
   text-transform: uppercase;
   margin-bottom: 1rem;
   font-size: 1.7rem;
-  color: #ddd;
+  color: #fff;
 }
 
 .current-score {
@@ -113,14 +113,11 @@ main {
   cursor: pointer;
   font-weight: 400;
   transition: all 0.2s;
-
-  background-color: white;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: #ffffff99;
   backdrop-filter: blur(10px);
-
   padding: 0.7rem 2.5rem;
   border-radius: 50rem;
-  box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1.75rem 3.5rem #0000001a;
 }
 
 .btn::first-letter {
@@ -141,7 +138,7 @@ main {
 
 .btn:active {
   transform: translate(-50%, 3px);
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1rem 2rem #00000026;
 }
 
 .btn:focus {
@@ -154,16 +151,16 @@ main {
   top: 16.5rem;
   transform: translateX(-50%);
   height: 10rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2rem 5rem #00000033;
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #1f1f1f;
 }
 
 .player--winner .name {
   font-weight: 700;
-  color: #c7365f;
+  color: #ff00aa;
 }
 .hidden {
   display: none;
